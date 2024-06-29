@@ -181,3 +181,65 @@ section {
     overflow: hidden;
     margin: auto ;
 }
+
+/* EXPERIENCE */
+#experience {
+    position: relative;
+    margin-top: 8rem;
+    gap: 5rem;
+    height: 75vh;
+}
+
+.experience-title {
+    background: linear-gradient(rgb(134, 133, 168), rgb(126, 145, 197));
+    color: transparent;
+    background-clip: text;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.card-containers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.card-container {
+    height: 325px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 4px;
+    border-color: rgb(75, 74, 96);
+    border-style: solid;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.card-title {
+    font-size: large;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    color: rgb(235, 235, 235);
+    margin: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 1.75rem;
+}
+
+.card-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    color: rgb(235, 235, 235);
+    line-height: 50px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
