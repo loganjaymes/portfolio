@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* COLOR PALLETE:
+    BG: rgb(33, 43, 66)
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Inter Tight, sans-serif;
+    background-color: rgb(33, 43, 66);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p, .logo {
+    color: rgb(235, 235, 235)
+}
+
+nav, .nav-links {
+    display: flex;
+    font-weight: 400;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 16vh;
+}
+
+.nav-links {
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.25rem;
+}
+
+a {
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(175, 175, 175);
+    text-decoration: underline;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+/* SECTION - GENERAL */
+section {
+    padding-top: 6vh;
+    height: 94vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+/* PROFILE */
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 75vh;
+}
+
+.profile-img-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    clip-path: circle();
+    margin: auto 0;
+}
+
+.prof-text {
+    align-self: center;
+    text-align: center;
+}
+
+.prof-text p {
+    text-align: center;
+}
+
+.prof-text__p1 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.prof-text__p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.uni-fl-text {
+    background: linear-gradient(to right, rgb(250, 70, 22), rgb(14, 58, 255));
+    /* maybe not have it justified right idk */
+    color: transparent;
+    background-clip: text;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.profile-title {
+    background: linear-gradient(rgb(134, 133, 168), rgb(126, 145, 197));
+    color: transparent;
+    background-clip: text;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.icon {
+    margin: 5px;
+    cursor: pointer;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+/* ABOUT */
+#about {
+    position: relative;
+    margin-top: 8rem;
+    gap: 5rem;
+    height: 75vh;
+}
+
+.about-containers, .about-details-container {
+    display: flex;
+    justify-content: right;
+}
+
+.about-containers {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-title {
+    background: linear-gradient(rgb(134, 133, 168), rgb(126, 145, 197));
+    color: transparent;
+    background-clip: text;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about-text-container {
+    font-size: 1.75rem;
+    margin: 15px;
+}
+
+.about-img-container {
+    display: flex;
+    justify-content: right;
+    height: 400px;
+    width: 1000px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: auto ;
+}
