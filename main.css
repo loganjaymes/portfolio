@@ -73,7 +73,7 @@ section {
 }
 
 /* PROFILE */
-#profile {
+#home {
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -109,7 +109,7 @@ section {
 
 .uni-fl-text {
     background: linear-gradient(to right, rgb(250, 70, 22), rgb(14, 58, 255));
-    /* maybe not have it justified right idk */
+    /* maybe not have it right idk */
     color: transparent;
     background-clip: text;
     font-size: 2.5rem;
@@ -226,4 +226,29 @@ section {
     line-height: 50px;
     font-size: 1.25rem;
     font-weight: 600;
+}
+
+/* PROJECTS */
+.project-img-container {
+    
+}
+
+
+/* CONNECT */
+.connect-containers, .connect-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.connect-info-title {
+    font-size: 1.75rem;
+    margin-top: 1rem;
+    
+}
+
+.connect-info-text {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
 }
