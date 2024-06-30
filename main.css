@@ -117,7 +117,7 @@ section {
     margin-bottom: 1rem;
 }
 
-.profile-title {
+.title {
     background: linear-gradient(rgb(134, 133, 168), rgb(126, 145, 197));
     color: transparent;
     background-clip: text;
@@ -158,15 +158,6 @@ section {
     margin-bottom: 2rem;
 }
 
-.about-title {
-    background: linear-gradient(rgb(134, 133, 168), rgb(126, 145, 197));
-    color: transparent;
-    background-clip: text;
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
 .about-text-container {
     font-size: 1.75rem;
     margin: 15px;
@@ -176,7 +167,7 @@ section {
     display: flex;
     justify-content: right;
     height: 400px;
-    width: 1000px;
+    min-width: 400px;
     border-radius: 15px;
     overflow: hidden;
     margin: auto ;
@@ -188,15 +179,6 @@ section {
     margin-top: 8rem;
     gap: 5rem;
     height: 75vh;
-}
-
-.experience-title {
-    background: linear-gradient(rgb(134, 133, 168), rgb(126, 145, 197));
-    color: transparent;
-    background-clip: text;
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 2rem;
 }
 
 .card-containers {
