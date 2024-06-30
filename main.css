@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* COLOR PALLETE:
-    BG: rgb(33, 43, 66)
-
-*/
-
-
 * {
     margin: 0;
     padding: 0;
@@ -29,16 +23,22 @@ nav, .nav-links {
     font-weight: 400;
 }
 
+
 nav {
-    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(25, 38, 68, 0.5);
+    padding-right: 2rem;
+    justify-content: right;
     align-items: center;
-    height: 16vh;
+    height: 5vh;
+    z-index: 40;
 }
 
 .nav-links {
     list-style: none;
-    gap: 2rem;
-    font-size: 1.25rem;
+    gap: 3rem;
+    font-size: 1.5rem;
 }
 
 a {
