@@ -61,13 +61,16 @@ a:hover {
 }
 
 /* SECTION - GENERAL */
-section {
-    /* position: relative; */
-    padding-top: 6vh;
+section {    
+    padding-top: 20vh;
     padding-bottom: 6vh;
-    min-height: 94vh;
+    margin-top: 28vh;
+    min-height: fit-content;
     margin: fit-content fit-content;
     box-sizing: border-box;
+    position: relative;
+    gap: 5rem;
+    min-height: fit-content;
 }
 
 .section-container {
@@ -76,11 +79,9 @@ section {
 
 /* PROFILE */
 #home {
+    margin-top: 0;
     display: flex;
     justify-content: center;
-    padding-top: 10rem;
-    gap: 5rem;
-    min-height: fit-content;
 }
 
 .profile-img-container {
@@ -155,12 +156,11 @@ section {
 }
 
 /* ABOUT */
+/*
 #about {
-    position: relative;
-    margin-top: 8rem;
-    gap: 5rem;
-    min-height: fit-content;
+
 }
+*/
 
 .about-containers, .about-details-container {
     display: flex;
@@ -193,12 +193,11 @@ section {
 }
 
 /* TECH */
+/*
 #tech {
-    position: relative;
-    margin-top: 8rem;
-    gap: 5rem;
-    min-height: fit-content;
+    margin-top: 28vh;
 }
+*/
 
 .card-containers {
     min-height: auto;
@@ -256,12 +255,11 @@ section {
 }
 
 /* PROJECTS */
+/*
 #projects {
-    position: relative;
-    margin-top: 8rem;
-    gap: 5rem;
-    min-height: fit-content;
+    
 }
+*/
 
 /*
 .project-img-container {
@@ -272,11 +270,8 @@ section {
 
 /* CONNECT */
 #connect {
-    position: relative;
-    margin-top: 8rem;
-    padding-bottom: 8rem; /* remove when adding lower sections */
-    gap: 5rem;
-    min-height: fit-content;
+    margin-top: 28vh;
+    padding-bottom: 28vh; /* remove when adding lower sections */
 }
 
 .connect-containers, .connect-text-container {
