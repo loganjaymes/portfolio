@@ -78,6 +78,7 @@ section {
 #home {
     display: flex;
     justify-content: center;
+    padding-top: 8rem;
     gap: 5rem;
     min-height: fit-content;
 }
