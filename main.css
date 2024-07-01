@@ -133,11 +133,22 @@ section {
     gap: 1rem;
 }
 
+.socials-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .icon {
     margin: 5px;
     cursor: pointer;
     height: 2rem;
     border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.icon:hover {
+    transform: translateY(-5px);
 }
 
 /* ABOUT */
@@ -161,6 +172,7 @@ section {
 .about-text-container {
     font-size: 1.75rem;
     margin: 15px;
+    max-width: 1000px;
 }
 
 .about-img-container {
@@ -168,6 +180,7 @@ section {
     justify-content: right;
     height: 400px;
     max-width: 400px;
+    min-width: 400px;
     border-radius: 15px;
     overflow: hidden;
     margin: auto;
@@ -201,6 +214,10 @@ section {
     border-radius: 15px;
     padding: 50px;
     margin-bottom: 50px;
+}
+
+.card-container:hover {
+
 }
 
 .card-title {
