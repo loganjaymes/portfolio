@@ -32,7 +32,7 @@ nav {
     padding-right: 2rem;
     justify-content: right;
     align-items: center;
-    height: 5vh;
+    min-height: 5vh;
     z-index: 40;
 }
 
@@ -63,6 +63,7 @@ a:hover {
 /* SECTION - GENERAL */
 section {
     /* position: relative; */
+    padding-top: 6vh;
     padding-bottom: 6vh;
     min-height: 94vh;
     margin: fit-content fit-content;
