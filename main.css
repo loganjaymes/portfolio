@@ -383,11 +383,17 @@ section {
 }
 
 .back-top {
+    display: flex;
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
+    bottom: 1rem;
+    right: .5rem;
     background-color: rgb(134, 133, 168, .25);
     border-radius: 2rem;
     padding: .5rem;
     transition: .2s ease-out;
+}
+
+.back-top:hover {
+    color: rgb(175, 175, 175);
+    text-decoration: none;
 }
