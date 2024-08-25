@@ -6,6 +6,9 @@
     <title>Logan's Portfolio</title>
     <link rel="stylesheet" href="main.css">
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
 </head>
 <body>
     <nav id="desktop">
@@ -58,10 +61,10 @@
                 <p>
                     <br>Hello, I'm Logan Bjork! I'm currently a second-year undergraduate at the University of Florida studying Computer Science.
                         I have an interest in front-end web development and UI/UX in general.</br>
-                    <br>Currently, I'm delving further into web development as a whole; but, for future projects I would love to work on anything related to
+                    <br>Currently, I'm delving further into web development as a whole; but, in future projects, I would love to work on anything related to
                         audio engineering.</br>
-                    <br>When I'm not programming though, I spend a handful of time recording music and playing videogames. Both of these passions are a huge inspiration 
-                        to me not only in day-to-day life, but also when it comes to starting and designing any projects.</br>
+                    <br>When I'm not programming, I spend a handful of time recording music and playing videogames. Both of these passions are a huge inspiration 
+                        to me not only in day-to-day life, but also when it comes to planning, starting, and designing projects.</br>
                 </p>
             </div>
             <div class="about-img-container">
@@ -110,29 +113,76 @@
         <div class="card-containers">
             <div class="card-container">
                 <div class="card-title">TRIFECTA</div>
-                    <ul class="card-list">
-                        <div class="project-img-container">
-                            <img src="./assets/project-imgs/c8ped8oz.bmp"></img>
+                    <ul class="card-list projects">
+                        <div class="slider-container">
+                            <div class="slider">
+                                <img id="slide-1" src="./assets/project-imgs/TRIFECTA/01 leaderboard + pagination.gif"></img>
+                                <img id="slide-2" src="./assets/project-imgs/TRIFECTA/02 help.bmp"></img>
+                                <img id="slide-3" src="./assets/project-imgs/TRIFECTA/03 profile 1.png"></img>
+                            </div>
+                            <!-- just do navbar in JS later
+                            <div class="slider-nav">
+                                <a href="#slide-1"></a>
+                                <a href="#slide-2"></a>
+                                <a href="#slide-3"></a>
+                            </div>
+                            -->
                         </div>
                     </ul>
+                    <div class="stack">
+                        <p class="lang-label">discord.py</p>
+                    </div>
+                    <p class="project-text">
+                        Trifecta is a Discord bot that automatically tracks any scores sent into a text channel</br>
+                        from the NYT Wordle, Mini-Crossword, and Connections.</br> 
+                        Each user's score is logged into their respective game's daily leaderboard in ascending order.
+                    </p>
+                    <div class=""></div>
+                </div>
+                <div class="card-container">
+                    <div class="card-title">Minesweeper</div>
+                        <ul class="card-list projects">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <img id="slide-1" src="./assets/project-imgs/Minesweeper/minesweeper.png"></img>
+                                </div>
+                            </div>
+                        </ul>
+                        <!-- <i class="devicon-cplusplus-plain lang-icon"></i><p>C++</p> -->
+                        <div class="stack">
+                            <p class="lang-label">C++</p>
+                            <p class="lang-label">SFML</p>
+                        </div>
+                        <p class="project-text">
+                            A Minesweeper clone created using solely C++ and the SFML library.</br>
+                            It features a start screen, leaderboard, and customizable size parameters for both</br>
+                            the grid and number of bombs.</br>
+                        </p>
+                        <div class=""></div>
+                    </div>
+                </div>
             </div>
     </section>
     <section id="connect">
         <h1 class="title">Connect</h1>
         <div class="connect-containers">
             <div class="connect-text-container">
-                <p class="connect-info-title">Email</p>
+                <p class="connect-info-title uni-fl-text">Email</p>
                 <p class="connect-info-text">loganjaymesbjork@gmail.com, loganbjork@ufl.edu </p>
-                <p class="connect-info-title">LinkedIn</p>
+                <p class="connect-info-title uni-fl-text">LinkedIn</p>
                 <p class="connect-info-text">loganbjork</p>
-                <p class="connect-info-title">GitHub</p>
+                <p class="connect-info-title uni-fl-text">GitHub</p>
                 <p class="connect-info-text">loganjaymes</p>
-                <p class="connect-info-title">Instagram</p>
+                <p class="connect-info-title uni-fl-text">Instagram</p>
                 <p class="connect-info-text">loganjaymes</p>
                 </p>
             </div>
         </div>
     </section>
+
+    <a href="#" class="back-top">
+        <span class="material-icons">arrow_upward</span>
+    </a>
 
 </body>
 </html>
